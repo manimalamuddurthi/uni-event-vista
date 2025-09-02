@@ -61,7 +61,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'nav-bg': 'hsl(var(--nav-bg))',
+				'nav-border': 'hsl(var(--nav-border))',
+				'event-card': 'hsl(var(--event-card))',
+				'event-hover': 'hsl(var(--event-hover))',
+				'category-active': 'hsl(var(--category-active))',
+				'category-text': 'hsl(var(--category-text))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
