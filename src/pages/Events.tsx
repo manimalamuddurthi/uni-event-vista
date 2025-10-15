@@ -3,7 +3,7 @@ import Navigation from "@/components/Navigation";
 import EventCard, { Event } from "@/components/EventCard";
 
 const Events = () => {
-  const [activeCategory, setActiveCategory] = useState<"student" | "faculty" | "external">("student");
+  const [activeCategory, setActiveCategory] = useState<"student" | "external">("student");
 
   // Sample events data
   const sampleEvents: Record<string, Event[]> = {
@@ -122,8 +122,7 @@ const Events = () => {
   };
 
   const categories = [
-    { key: "student", label: "Student Conducted Events", description: "Events organized by student groups and societies" },
-    { key: "faculty", label: "Faculty Conducted Events", description: "Academic and professional events organized by faculty" },
+    { key: "student", label: "College Events", description: "Events organized within our college" },
     { key: "external", label: "Outside Events", description: "Events from other colleges and external organizations" },
   ];
 
